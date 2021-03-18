@@ -1,0 +1,9 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    -  name: "mensagem de desprovisionamento"
+       debug:
+         msg: "iniciando desprovisionamento"
+
